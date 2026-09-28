@@ -1,0 +1,57 @@
+{
+  "leadTimes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "defaultBaselineConfidence": [94, 90, 84, 77, 68, 61, 55, 49, 43, 38],
+  "defaultBaselineBustProb": [4, 7, 11, 18, 29, 35, 43, 51, 58, 64],
+  "observedVsForecastDatasets": {
+    "Rainfall": {
+      "unit": "mm/24h",
+      "days": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"],
+      "forecast": [72, 85, 110, 125, 145, 130, 95],
+      "observed": [70, 89, 140, 168, 190, 162, 105],
+      "mae": 24.8,
+      "rmse": 31.4,
+      "bias": -19.6,
+      "correlation": 0.89
+    },
+    "Temperature": {
+      "unit": "°C",
+      "days": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"],
+      "forecast": [38.2, 39.5, 41.0, 42.8, 43.5, 44.1, 42.0],
+      "observed": [38.0, 39.1, 42.4, 44.9, 46.2, 45.8, 43.1],
+      "mae": 1.7,
+      "rmse": 2.1,
+      "bias": -1.4,
+      "correlation": 0.94
+    },
+    "Wind Speed": {
+      "unit": "km/h",
+      "days": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"],
+      "forecast": [28, 35, 48, 65, 82, 70, 45],
+      "observed": [27, 33, 56, 84, 105, 88, 52],
+      "mae": 13.9,
+      "rmse": 16.8,
+      "bias": -11.2,
+      "correlation": 0.91
+    },
+    "Pressure": {
+      "unit": "hPa",
+      "days": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"],
+      "forecast": [1008, 1005, 1001, 996, 992, 995, 1000],
+      "observed": [1007, 1004, 998, 991, 984, 990, 997],
+      "mae": 4.6,
+      "rmse": 5.4,
+      "bias": 3.7,
+      "correlation": 0.96
+    },
+    "Humidity": {
+      "unit": "%",
+      "days": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"],
+      "forecast": [78, 82, 85, 90, 92, 88, 80],
+      "observed": [76, 84, 91, 96, 98, 92, 82],
+      "mae": 4.7,
+      "rmse": 5.6,
+      "bias": -3.8,
+      "correlation": 0.93
+    }
+  }
+}
